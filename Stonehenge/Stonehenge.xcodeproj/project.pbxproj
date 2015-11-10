@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D11FEA41B9EE93600DE20C3 /* MY INFO.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0D11FE9B1B9EE93600DE20C3 /* MY INFO.txt */; };
+		0D11FEA51B9EE93600DE20C3 /* Stonehenge Promo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D11FE9C1B9EE93600DE20C3 /* Stonehenge Promo.jpg */; };
+		0D11FEA61B9EE93600DE20C3 /* Stonehenge.3DS in Resources */ = {isa = PBXBuildFile; fileRef = 0D11FE9D1B9EE93600DE20C3 /* Stonehenge.3DS */; };
+		0D11FEA71B9EE93600DE20C3 /* Stonehenge.FBX in Resources */ = {isa = PBXBuildFile; fileRef = 0D11FE9E1B9EE93600DE20C3 /* Stonehenge.FBX */; };
+		0D11FEA81B9EE93600DE20C3 /* Stonehenge.max in Resources */ = {isa = PBXBuildFile; fileRef = 0D11FE9F1B9EE93600DE20C3 /* Stonehenge.max */; };
+		0D11FEA91B9EE93600DE20C3 /* Stonehenge.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 0D11FEA01B9EE93600DE20C3 /* Stonehenge.mtl */; };
+		0D11FEAA1B9EE93600DE20C3 /* Stonehenge.obj in Resources */ = {isa = PBXBuildFile; fileRef = 0D11FEA11B9EE93600DE20C3 /* Stonehenge.obj */; };
+		0D11FEAB1B9EE93600DE20C3 /* free_stone_texture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D11FEA31B9EE93600DE20C3 /* free_stone_texture.jpg */; };
+		0DA596C41B8D5B0500E0C7E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA596C31B8D5B0500E0C7E5 /* AppDelegate.swift */; };
+		0DA596C61B8D5B0500E0C7E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA596C51B8D5B0500E0C7E5 /* ViewController.swift */; };
+		0DA596C81B8D5B0500E0C7E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA596C71B8D5B0500E0C7E5 /* Assets.xcassets */; };
+		0DA596CB1B8D5B0500E0C7E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA596C91B8D5B0500E0C7E5 /* Main.storyboard */; };
+		0DA596D31B8D61AF00E0C7E5 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 0DA596D21B8D61AF00E0C7E5 /* Shaders.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D11FE9B1B9EE93600DE20C3 /* MY INFO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "MY INFO.txt"; sourceTree = "<group>"; };
+		0D11FE9C1B9EE93600DE20C3 /* Stonehenge Promo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Stonehenge Promo.jpg"; sourceTree = "<group>"; };
+		0D11FE9D1B9EE93600DE20C3 /* Stonehenge.3DS */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stonehenge.3DS; sourceTree = "<group>"; };
+		0D11FE9E1B9EE93600DE20C3 /* Stonehenge.FBX */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stonehenge.FBX; sourceTree = "<group>"; };
+		0D11FE9F1B9EE93600DE20C3 /* Stonehenge.max */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stonehenge.max; sourceTree = "<group>"; };
+		0D11FEA01B9EE93600DE20C3 /* Stonehenge.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Stonehenge.mtl; sourceTree = "<group>"; };
+		0D11FEA11B9EE93600DE20C3 /* Stonehenge.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Stonehenge.obj; sourceTree = "<group>"; };
+		0D11FEA31B9EE93600DE20C3 /* free_stone_texture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = free_stone_texture.jpg; sourceTree = "<group>"; };
+		0DA596C01B8D5B0500E0C7E5 /* Stonehenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stonehenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DA596C31B8D5B0500E0C7E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0DA596C51B8D5B0500E0C7E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0DA596C71B8D5B0500E0C7E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DA596CA1B8D5B0500E0C7E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DA596CC1B8D5B0500E0C7E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DA596D21B8D61AF00E0C7E5 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DA596BD1B8D5B0500E0C7E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D11FE9A1B9EE93600DE20C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0D11FE9B1B9EE93600DE20C3 /* MY INFO.txt */,
+				0D11FE9C1B9EE93600DE20C3 /* Stonehenge Promo.jpg */,
+				0D11FE9D1B9EE93600DE20C3 /* Stonehenge.3DS */,
+				0D11FE9E1B9EE93600DE20C3 /* Stonehenge.FBX */,
+				0D11FE9F1B9EE93600DE20C3 /* Stonehenge.max */,
+				0D11FEA01B9EE93600DE20C3 /* Stonehenge.mtl */,
+				0D11FEA11B9EE93600DE20C3 /* Stonehenge.obj */,
+				0D11FEA21B9EE93600DE20C3 /* Texture */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0D11FEA21B9EE93600DE20C3 /* Texture */ = {
+			isa = PBXGroup;
+			children = (
+				0D11FEA31B9EE93600DE20C3 /* free_stone_texture.jpg */,
+			);
+			path = Texture;
+			sourceTree = "<group>";
+		};
+		0DA596B71B8D5B0500E0C7E5 = {
+			isa = PBXGroup;
+			children = (
+				0DA596C21B8D5B0500E0C7E5 /* Stonehenge */,
+				0DA596C11B8D5B0500E0C7E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DA596C11B8D5B0500E0C7E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DA596C01B8D5B0500E0C7E5 /* Stonehenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DA596C21B8D5B0500E0C7E5 /* Stonehenge */ = {
+			isa = PBXGroup;
+			children = (
+				0DA596C31B8D5B0500E0C7E5 /* AppDelegate.swift */,
+				0DA596C51B8D5B0500E0C7E5 /* ViewController.swift */,
+				0DA596C71B8D5B0500E0C7E5 /* Assets.xcassets */,
+				0DA596C91B8D5B0500E0C7E5 /* Main.storyboard */,
+				0DA596CC1B8D5B0500E0C7E5 /* Info.plist */,
+				0DA596D21B8D61AF00E0C7E5 /* Shaders.metal */,
+				0D11FE9A1B9EE93600DE20C3 /* Model */,
+			);
+			path = Stonehenge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DA596BF1B8D5B0500E0C7E5 /* Stonehenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DA596CF1B8D5B0500E0C7E5 /* Build configuration list for PBXNativeTarget "Stonehenge" */;
+			buildPhases = (
+				0DA596BC1B8D5B0500E0C7E5 /* Sources */,
+				0DA596BD1B8D5B0500E0C7E5 /* Frameworks */,
+				0DA596BE1B8D5B0500E0C7E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stonehenge;
+			productName = MetalTest;
+			productReference = 0DA596C01B8D5B0500E0C7E5 /* Stonehenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DA596B81B8D5B0500E0C7E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Ryder Mackay";
+				TargetAttributes = {
+					0DA596BF1B8D5B0500E0C7E5 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 0DA596BB1B8D5B0500E0C7E5 /* Build configuration list for PBXProject "Stonehenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DA596B71B8D5B0500E0C7E5;
+			productRefGroup = 0DA596C11B8D5B0500E0C7E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DA596BF1B8D5B0500E0C7E5 /* Stonehenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DA596BE1B8D5B0500E0C7E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D11FEA81B9EE93600DE20C3 /* Stonehenge.max in Resources */,
+				0D11FEA91B9EE93600DE20C3 /* Stonehenge.mtl in Resources */,
+				0D11FEA61B9EE93600DE20C3 /* Stonehenge.3DS in Resources */,
+				0D11FEA51B9EE93600DE20C3 /* Stonehenge Promo.jpg in Resources */,
+				0D11FEAA1B9EE93600DE20C3 /* Stonehenge.obj in Resources */,
+				0DA596C81B8D5B0500E0C7E5 /* Assets.xcassets in Resources */,
+				0D11FEA41B9EE93600DE20C3 /* MY INFO.txt in Resources */,
+				0D11FEA71B9EE93600DE20C3 /* Stonehenge.FBX in Resources */,
+				0DA596CB1B8D5B0500E0C7E5 /* Main.storyboard in Resources */,
+				0D11FEAB1B9EE93600DE20C3 /* free_stone_texture.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DA596BC1B8D5B0500E0C7E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DA596D31B8D61AF00E0C7E5 /* Shaders.metal in Sources */,
+				0DA596C61B8D5B0500E0C7E5 /* ViewController.swift in Sources */,
+				0DA596C41B8D5B0500E0C7E5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0DA596C91B8D5B0500E0C7E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DA596CA1B8D5B0500E0C7E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DA596CD1B8D5B0500E0C7E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DA596CE1B8D5B0500E0C7E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0DA596D01B8D5B0500E0C7E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Stonehenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rydermackay.Stonehenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0DA596D11B8D5B0500E0C7E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Stonehenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rydermackay.Stonehenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DA596BB1B8D5B0500E0C7E5 /* Build configuration list for PBXProject "Stonehenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DA596CD1B8D5B0500E0C7E5 /* Debug */,
+				0DA596CE1B8D5B0500E0C7E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DA596CF1B8D5B0500E0C7E5 /* Build configuration list for PBXNativeTarget "Stonehenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DA596D01B8D5B0500E0C7E5 /* Debug */,
+				0DA596D11B8D5B0500E0C7E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DA596B81B8D5B0500E0C7E5 /* Project object */;
+}

@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D073D471B9D392D008E456D /* test-pattern-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D073D461B9D392D008E456D /* test-pattern-64.png */; };
+		0D37F7C81B9C195900AC62F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D37F7C71B9C195900AC62F9 /* AppDelegate.swift */; };
+		0D37F7CA1B9C195900AC62F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D37F7C91B9C195900AC62F9 /* ViewController.swift */; };
+		0D37F7CC1B9C195900AC62F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D37F7CB1B9C195900AC62F9 /* Assets.xcassets */; };
+		0D37F7CF1B9C195900AC62F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D37F7CD1B9C195900AC62F9 /* Main.storyboard */; };
+		0D37F7D71B9C1E3D00AC62F9 /* Mushroom-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D37F7D61B9C1E3D00AC62F9 /* Mushroom-128.png */; };
+		0D37F7D91B9C214A00AC62F9 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 0D37F7D81B9C214A00AC62F9 /* Shaders.metal */; };
+		0D37F7DB1B9CE45F00AC62F9 /* Mushroom-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D37F7DA1B9CE45F00AC62F9 /* Mushroom-512.png */; };
+		0D5736911B9EBA5800B9E95C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5736901B9EBA5800B9E95C /* AppDelegate.swift */; };
+		0D5736931B9EBA5800B9E95C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5736921B9EBA5800B9E95C /* ViewController.swift */; };
+		0D5736951B9EBA5800B9E95C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D5736941B9EBA5800B9E95C /* Assets.xcassets */; };
+		0D57369E1B9EBA7C00B9E95C /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D57369D1B9EBA7C00B9E95C /* MetalView.swift */; };
+		0D7BBDB61B9EBD7600DAD2E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D7BBDB51B9EBD7600DAD2E0 /* Main.storyboard */; };
+		0D7BBDB81B9EBD8A00DAD2E0 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 0D7BBDB71B9EBD8A00DAD2E0 /* Shaders.metal */; };
+		0D7BBDBA1B9EC81700DAD2E0 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7BBDB91B9EC81700DAD2E0 /* Renderer.swift */; };
+		0D7BBDC21B9ED1A100DAD2E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7BBDC11B9ED1A100DAD2E0 /* AppDelegate.swift */; };
+		0D7BBDC41B9ED1A100DAD2E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7BBDC31B9ED1A100DAD2E0 /* ViewController.swift */; };
+		0D7BBDC71B9ED1A100DAD2E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D7BBDC51B9ED1A100DAD2E0 /* Main.storyboard */; };
+		0D7BBDC91B9ED1A100DAD2E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D7BBDC81B9ED1A100DAD2E0 /* Assets.xcassets */; };
+		0D7BBDCC1B9ED1A100DAD2E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D7BBDCA1B9ED1A100DAD2E0 /* LaunchScreen.storyboard */; };
+		0D7BBDD31B9ED24400DAD2E0 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D57369D1B9EBA7C00B9E95C /* MetalView.swift */; };
+		0D7BBDD41B9ED24400DAD2E0 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7BBDB91B9EC81700DAD2E0 /* Renderer.swift */; };
+		0D7BBDD51B9ED24400DAD2E0 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 0D7BBDB71B9EBD8A00DAD2E0 /* Shaders.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D073D461B9D392D008E456D /* test-pattern-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test-pattern-64.png"; sourceTree = "<group>"; };
+		0D37F7C41B9C195900AC62F9 /* MetalPaint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalPaint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D37F7C71B9C195900AC62F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D37F7C91B9C195900AC62F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D37F7CB1B9C195900AC62F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D37F7CE1B9C195900AC62F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D37F7D01B9C195900AC62F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D37F7D61B9C1E3D00AC62F9 /* Mushroom-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mushroom-128.png"; sourceTree = "<group>"; };
+		0D37F7D81B9C214A00AC62F9 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		0D37F7DA1B9CE45F00AC62F9 /* Mushroom-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mushroom-512.png"; sourceTree = "<group>"; };
+		0D57368E1B9EBA5800B9E95C /* Hello Triangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello Triangle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D5736901B9EBA5800B9E95C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D5736921B9EBA5800B9E95C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D5736941B9EBA5800B9E95C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D5736991B9EBA5800B9E95C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D57369D1B9EBA7C00B9E95C /* MetalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		0D7BBDB51B9EBD7600DAD2E0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0D7BBDB71B9EBD8A00DAD2E0 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		0D7BBDB91B9EC81700DAD2E0 /* Renderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		0D7BBDBF1B9ED1A100DAD2E0 /* Hello Triangle iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello Triangle iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D7BBDC11B9ED1A100DAD2E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D7BBDC31B9ED1A100DAD2E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D7BBDC61B9ED1A100DAD2E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D7BBDC81B9ED1A100DAD2E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D7BBDCB1B9ED1A100DAD2E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D7BBDCD1B9ED1A100DAD2E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D37F7C11B9C195900AC62F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D57368B1B9EBA5800B9E95C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D7BBDBC1B9ED1A100DAD2E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D37F7BB1B9C195900AC62F9 = {
+			isa = PBXGroup;
+			children = (
+				0D57368F1B9EBA5800B9E95C /* Hello Triangle */,
+				0D37F7C61B9C195900AC62F9 /* MetalPaint */,
+				0D37F7C51B9C195900AC62F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D37F7C51B9C195900AC62F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D37F7C41B9C195900AC62F9 /* MetalPaint.app */,
+				0D57368E1B9EBA5800B9E95C /* Hello Triangle.app */,
+				0D7BBDBF1B9ED1A100DAD2E0 /* Hello Triangle iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D37F7C61B9C195900AC62F9 /* MetalPaint */ = {
+			isa = PBXGroup;
+			children = (
+				0D37F7C71B9C195900AC62F9 /* AppDelegate.swift */,
+				0D37F7C91B9C195900AC62F9 /* ViewController.swift */,
+				0D37F7D81B9C214A00AC62F9 /* Shaders.metal */,
+				0D37F7CB1B9C195900AC62F9 /* Assets.xcassets */,
+				0D37F7CD1B9C195900AC62F9 /* Main.storyboard */,
+				0D37F7D01B9C195900AC62F9 /* Info.plist */,
+				0D37F7D61B9C1E3D00AC62F9 /* Mushroom-128.png */,
+				0D37F7DA1B9CE45F00AC62F9 /* Mushroom-512.png */,
+				0D073D461B9D392D008E456D /* test-pattern-64.png */,
+			);
+			path = MetalPaint;
+			sourceTree = "<group>";
+		};
+		0D57368F1B9EBA5800B9E95C /* Hello Triangle */ = {
+			isa = PBXGroup;
+			children = (
+				0D7BBDC01B9ED1A100DAD2E0 /* iOS */,
+				0D7BBDD11B9ED1C300DAD2E0 /* Mac */,
+				0D57369D1B9EBA7C00B9E95C /* MetalView.swift */,
+				0D7BBDB91B9EC81700DAD2E0 /* Renderer.swift */,
+				0D7BBDB71B9EBD8A00DAD2E0 /* Shaders.metal */,
+			);
+			path = "Hello Triangle";
+			sourceTree = "<group>";
+		};
+		0D7BBDC01B9ED1A100DAD2E0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0D7BBDC11B9ED1A100DAD2E0 /* AppDelegate.swift */,
+				0D7BBDC31B9ED1A100DAD2E0 /* ViewController.swift */,
+				0D7BBDC51B9ED1A100DAD2E0 /* Main.storyboard */,
+				0D7BBDC81B9ED1A100DAD2E0 /* Assets.xcassets */,
+				0D7BBDCA1B9ED1A100DAD2E0 /* LaunchScreen.storyboard */,
+				0D7BBDCD1B9ED1A100DAD2E0 /* Info.plist */,
+			);
+			name = iOS;
+			path = "Hello Triangle iOS";
+			sourceTree = SOURCE_ROOT;
+		};
+		0D7BBDD11B9ED1C300DAD2E0 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				0D5736901B9EBA5800B9E95C /* AppDelegate.swift */,
+				0D5736921B9EBA5800B9E95C /* ViewController.swift */,
+				0D5736941B9EBA5800B9E95C /* Assets.xcassets */,
+				0D7BBDB51B9EBD7600DAD2E0 /* Main.storyboard */,
+				0D5736991B9EBA5800B9E95C /* Info.plist */,
+			);
+			name = Mac;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D37F7C31B9C195900AC62F9 /* MetalPaint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D37F7D31B9C195900AC62F9 /* Build configuration list for PBXNativeTarget "MetalPaint" */;
+			buildPhases = (
+				0D37F7C01B9C195900AC62F9 /* Sources */,
+				0D37F7C11B9C195900AC62F9 /* Frameworks */,
+				0D37F7C21B9C195900AC62F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetalPaint;
+			productName = MetalPaint;
+			productReference = 0D37F7C41B9C195900AC62F9 /* MetalPaint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D57368D1B9EBA5800B9E95C /* Hello Triangle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D57369C1B9EBA5800B9E95C /* Build configuration list for PBXNativeTarget "Hello Triangle" */;
+			buildPhases = (
+				0D57368A1B9EBA5800B9E95C /* Sources */,
+				0D57368B1B9EBA5800B9E95C /* Frameworks */,
+				0D57368C1B9EBA5800B9E95C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hello Triangle";
+			productName = "Hello Triangle";
+			productReference = 0D57368E1B9EBA5800B9E95C /* Hello Triangle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D7BBDBE1B9ED1A100DAD2E0 /* Hello Triangle iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D7BBDCE1B9ED1A100DAD2E0 /* Build configuration list for PBXNativeTarget "Hello Triangle iOS" */;
+			buildPhases = (
+				0D7BBDBB1B9ED1A100DAD2E0 /* Sources */,
+				0D7BBDBC1B9ED1A100DAD2E0 /* Frameworks */,
+				0D7BBDBD1B9ED1A100DAD2E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hello Triangle iOS";
+			productName = "Hello Triangle iOS";
+			productReference = 0D7BBDBF1B9ED1A100DAD2E0 /* Hello Triangle iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D37F7BC1B9C195900AC62F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Ryder Mackay";
+				TargetAttributes = {
+					0D37F7C31B9C195900AC62F9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0D57368D1B9EBA5800B9E95C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0D7BBDBE1B9ED1A100DAD2E0 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 0D37F7BF1B9C195900AC62F9 /* Build configuration list for PBXProject "MetalPaint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D37F7BB1B9C195900AC62F9;
+			productRefGroup = 0D37F7C51B9C195900AC62F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D57368D1B9EBA5800B9E95C /* Hello Triangle */,
+				0D7BBDBE1B9ED1A100DAD2E0 /* Hello Triangle iOS */,
+				0D37F7C31B9C195900AC62F9 /* MetalPaint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D37F7C21B9C195900AC62F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D37F7D71B9C1E3D00AC62F9 /* Mushroom-128.png in Resources */,
+				0D073D471B9D392D008E456D /* test-pattern-64.png in Resources */,
+				0D37F7CC1B9C195900AC62F9 /* Assets.xcassets in Resources */,
+				0D37F7DB1B9CE45F00AC62F9 /* Mushroom-512.png in Resources */,
+				0D37F7CF1B9C195900AC62F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D57368C1B9EBA5800B9E95C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5736951B9EBA5800B9E95C /* Assets.xcassets in Resources */,
+				0D7BBDB61B9EBD7600DAD2E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D7BBDBD1B9ED1A100DAD2E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7BBDCC1B9ED1A100DAD2E0 /* LaunchScreen.storyboard in Resources */,
+				0D7BBDC91B9ED1A100DAD2E0 /* Assets.xcassets in Resources */,
+				0D7BBDC71B9ED1A100DAD2E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D37F7C01B9C195900AC62F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D37F7D91B9C214A00AC62F9 /* Shaders.metal in Sources */,
+				0D37F7CA1B9C195900AC62F9 /* ViewController.swift in Sources */,
+				0D37F7C81B9C195900AC62F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D57368A1B9EBA5800B9E95C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7BBDB81B9EBD8A00DAD2E0 /* Shaders.metal in Sources */,
+				0D57369E1B9EBA7C00B9E95C /* MetalView.swift in Sources */,
+				0D5736931B9EBA5800B9E95C /* ViewController.swift in Sources */,
+				0D7BBDBA1B9EC81700DAD2E0 /* Renderer.swift in Sources */,
+				0D5736911B9EBA5800B9E95C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D7BBDBB1B9ED1A100DAD2E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7BBDD41B9ED24400DAD2E0 /* Renderer.swift in Sources */,
+				0D7BBDD31B9ED24400DAD2E0 /* MetalView.swift in Sources */,
+				0D7BBDC41B9ED1A100DAD2E0 /* ViewController.swift in Sources */,
+				0D7BBDC21B9ED1A100DAD2E0 /* AppDelegate.swift in Sources */,
+				0D7BBDD51B9ED24400DAD2E0 /* Shaders.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0D37F7CD1B9C195900AC62F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D37F7CE1B9C195900AC62F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D7BBDC51B9ED1A100DAD2E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D7BBDC61B9ED1A100DAD2E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D7BBDCA1B9ED1A100DAD2E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D7BBDCB1B9ED1A100DAD2E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D37F7D11B9C195900AC62F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D37F7D21B9C195900AC62F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0D37F7D41B9C195900AC62F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MetalPaint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rydermackay.MetalPaint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0D37F7D51B9C195900AC62F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MetalPaint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rydermackay.MetalPaint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0D57369A1B9EBA5800B9E95C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Hello Triangle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rydermackay.Hello-Triangle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0D57369B1B9EBA5800B9E95C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Hello Triangle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rydermackay.Hello-Triangle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0D7BBDCF1B9ED1A100DAD2E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Hello Triangle iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rydermackay.Hello-Triangle-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D7BBDD01B9ED1A100DAD2E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Hello Triangle iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rydermackay.Hello-Triangle-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D37F7BF1B9C195900AC62F9 /* Build configuration list for PBXProject "MetalPaint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D37F7D11B9C195900AC62F9 /* Debug */,
+				0D37F7D21B9C195900AC62F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D37F7D31B9C195900AC62F9 /* Build configuration list for PBXNativeTarget "MetalPaint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D37F7D41B9C195900AC62F9 /* Debug */,
+				0D37F7D51B9C195900AC62F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D57369C1B9EBA5800B9E95C /* Build configuration list for PBXNativeTarget "Hello Triangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D57369A1B9EBA5800B9E95C /* Debug */,
+				0D57369B1B9EBA5800B9E95C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D7BBDCE1B9ED1A100DAD2E0 /* Build configuration list for PBXNativeTarget "Hello Triangle iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D7BBDCF1B9ED1A100DAD2E0 /* Debug */,
+				0D7BBDD01B9ED1A100DAD2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D37F7BC1B9C195900AC62F9 /* Project object */;
+}
