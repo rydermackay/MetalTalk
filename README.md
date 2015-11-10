@@ -28,3 +28,11 @@ Change `let demo = Demo.Paint` to switch demos.
 
 ## Metal Performance Shaders
 - Requires A8(x) iOS device
+
+
+# Further Reading
+- [Metal Programming Guide](https://developer.apple.com/library/ios/documentation/Miscellaneous/Conceptual/MetalProgrammingGuide/Introduction/Introduction.html)
+- [Metal Shader Reference](https://developer.apple.com/library/prerelease/ios/documentation/Metal/Reference/MetalShadingLanguageGuide/Introduction/Introduction.html)
+- [Metal by Example](http://metalbyexample.com)
+- [FlexMonkey](http://flexmonkey.blogspot.ca)
+- [Memkite](http://memkite.com/blog/)
