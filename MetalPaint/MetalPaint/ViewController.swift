@@ -18,7 +18,7 @@ enum Demo {
     case CoreImage
 }
 
-let demo = Demo.CoreVideo
+let demo = Demo.Paint
 
 
 enum Error: ErrorType {
